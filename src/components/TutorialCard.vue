@@ -28,7 +28,9 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  text-align: center;
   margin-bottom: 10px;
+  margin: 0 100px;
 }
 
 header {
