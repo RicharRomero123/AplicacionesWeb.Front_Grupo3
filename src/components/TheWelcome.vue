@@ -16,15 +16,7 @@
       </nav>
     </div>
     <div class="logo">LIBRARY UPC</div>
-    <div class="login">
-      <form>
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username">
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password">
-        <button type="submit">Log In</button>
-      </form>
-    </div>
+    <button class="user-button"></button>
   </header>
 </template>
 
@@ -98,32 +90,15 @@
   font-size: 28px;
 }
 
-.login {
-  display: flex;
-  align-items: center;
-}
-
-form {
-  display: flex;
-  align-items: center;
-  margin: 0;
-}
-
-label {
-  margin-right: 10px;
-}
-
-input {
-  padding: 5px;
-  margin-right: 10px;
-}
-
-button {
-  padding: 5px 10px;
+.user-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
   background-color: white;
-  color: black;
-  border: none;
-  border-radius: 5px;
+  background-image: url(https://cdn1.iconfinder.com/data/icons/marketing-19/100/Profile-512.png);
+  background-size: 50px 50px;
+  background-position: center;
+  background-repeat: no-repeat;
   cursor: pointer;
 }
 </style>
