@@ -24,7 +24,7 @@ export default {
   .category{
       border: 1px solid black;
       height: 200px;
-      width: 200px;
+      width: 150px;
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
