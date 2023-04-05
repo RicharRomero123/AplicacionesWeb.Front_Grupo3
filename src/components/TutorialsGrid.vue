@@ -32,7 +32,7 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: 20 0px;
+  gap: 20px 0;
   margin: 30px auto;
   position: relative;
   padding-bottom: 2em;
