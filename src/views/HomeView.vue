@@ -1,7 +1,7 @@
 <script setup>
 import TheWelcome from '../components/TheWelcome.vue'
 import TutorialsGrid from '../components/TutorialsGrid.vue'
-import footer from '../components/footer.vue'
+import final_footer from '../components/final_footer.vue'
 </script>
 
 <template>
@@ -14,7 +14,7 @@ import footer from '../components/footer.vue'
   </div>
 
   <div>
-    <footer />
+    <final_footer/>
   </div>
   
   
@@ -23,5 +23,6 @@ import footer from '../components/footer.vue'
 <style scope>
 .content {
   display: flex;
+  position: relative;
 }
 </style>
