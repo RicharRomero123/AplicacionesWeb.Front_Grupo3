@@ -68,7 +68,10 @@
 }
 
 .show-menu {
-  height: 120px;
+    height: 160px;
+    left: 0;
+    right: auto;
+    z-index: +1;
 }
 
 .menu-items ul {
