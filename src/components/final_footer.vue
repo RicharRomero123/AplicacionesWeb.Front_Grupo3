@@ -13,11 +13,10 @@
                     <div>98622558</div>
                     <div>Los Manzanos 398</div>
                 </div>
-<<<<<<< HEAD
-=======
 
 
->>>>>>> origin/master
+
+
             </div>
                 
             <div style="color: greenyellow;">
