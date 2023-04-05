@@ -7,9 +7,9 @@
     <section>
       <slot />
     </section>
-
     <footer>
       <p>{{ description }}</p>
+
     </footer>
   </div>
 </template>
@@ -28,6 +28,7 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-bottom: 10px;
 }
 
 header {

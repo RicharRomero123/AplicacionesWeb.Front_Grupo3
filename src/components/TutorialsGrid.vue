@@ -32,7 +32,10 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: 80px;
+  gap: 200px;
   margin: 30px auto;
+  position: relative;
+  padding-bottom: 2em;
+  min-height: 89vh;
 }
 </style>
