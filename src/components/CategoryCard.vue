@@ -57,7 +57,7 @@ export default {
       justify-content: center;
   }
   div .info a{
-      text-decoration: nome;
+      text-decoration: none;
       color: green;
       background: aliceblue;
       padding:5px 20px;

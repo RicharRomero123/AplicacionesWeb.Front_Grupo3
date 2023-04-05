@@ -13,10 +13,6 @@
                     <div>98622558</div>
                     <div>Los Manzanos 398</div>
                 </div>
-
-
-
-
             </div>
                 
             <div style="color: greenyellow;">
