@@ -1,6 +1,7 @@
 <script setup>
 import TheWelcome from '../components/TheWelcome.vue'
 import TutorialsGrid from '../components/TutorialsGrid.vue'
+import footer from '../components/footer.vue'
 </script>
 
 <template>
@@ -12,7 +13,11 @@ import TutorialsGrid from '../components/TutorialsGrid.vue'
     <TutorialsGrid />
   </div>
 
-  <footer />
+  <div>
+    <footer />
+  </div>
+  
+  
 </template>
 
 <style scope>
