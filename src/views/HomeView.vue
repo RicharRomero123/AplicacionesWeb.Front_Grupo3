@@ -11,6 +11,8 @@ import TutorialsGrid from '../components/TutorialsGrid.vue'
   <div class="content">
     <TutorialsGrid />
   </div>
+
+  <footer />
 </template>
 
 <style scope>
