@@ -21,15 +21,20 @@ export default {
 </script>
 
 <style>
-  .category{
+  div .category{
       border: 1px solid black;
       height: 200px;
       width: 150px;
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
-      margin: 15px 0 0 15px;
+      margin: 25px 0 0 15px;
       padding: 0;
+  }
+  .category:hover{
+      box-shadow: 0 5px 5px rgb(3, 89, 92, 0.5);
+      transform: translateY(-15px);
+      background: #f2f2f2;
   }
   header {
       height: 15%;
