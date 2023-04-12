@@ -40,6 +40,7 @@ import PrimeVueCode from "@/components/PrimeVueCode.vue";
 }
 
 .Formulario {
+  position: relative;
   background-color: #B9B8B5;
   border-radius: 10px;
   padding: 100px;
@@ -60,5 +61,6 @@ import PrimeVueCode from "@/components/PrimeVueCode.vue";
   margin: 0;
   padding: 20px;
 }
+
 </style>
 
