@@ -13,16 +13,16 @@ import PrimeVueCode from "@/components/PrimeVueCode.vue";
 
     <div class="Cuerpo">
 
-
-        <div class="content">
-          <PrimeVueCode/>
-
+      <div class="Formulario">
+        <div class="pestaña">
+          <p class="titulo">Add Tutorial</p>
         </div>
+        <PrimeVueCode/>
+      </div>
+
     </div>
 
 
-
-  <PrimeVueCode/>
 
   <div>
     <final_footer/>
@@ -30,19 +30,35 @@ import PrimeVueCode from "@/components/PrimeVueCode.vue";
 
 </template>
 
-<style scope>
-div .content {
-    width: 100%;
-    display: flex;
-    position: relative;
-    padding-left: 50px;
-    margin-left: 50px;
-    border-left: 10px solid grey;
+
+<style>
+.Cuerpo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
 }
-div .Cuerpo{
-    display: flex;
-    position: relative;
-    margin-bottom: 550px;
+
+.Formulario {
+  background-color: #B9B8B5;
+  border-radius: 10px;
+  padding: 100px;
+  height: 60vh;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.pestaña {
+  background-color: #4B4A47;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.titulo {
+  color: white;
+  margin: 0;
+  padding: 20px;
 }
 </style>
 
