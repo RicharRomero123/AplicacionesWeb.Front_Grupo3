@@ -16,15 +16,23 @@ import "primevue/resources/primevue.min.css";
 import "primeicons/primeicons.css";
 import Button from 'primevue/button';
 import InputMask from 'primevue/inputmask';
-
+import InputText from 'primevue/inputtext';
+import Dropdown from 'primevue/dropdown';
+import Calendar from 'primevue/calendar';
+import InputNumber from 'primevue/inputnumber';
+import Textarea from 'primevue/textarea';
+import Checkbox from 'primevue/checkbox';
 
 const app = createApp(App);
 app.use(PrimeVue);
-
-
-
 app.component('pv-button',Button)
 app.component('pv-inputmask',InputMask)
+app.component('pv-inputtext',InputText)
+app.component('pv-dropdown',Dropdown)
+app.component('pv-calendar',Calendar)
+app.component('pv-inputnumber',InputNumber)
+app.component('pv-texttarea',Textarea)
+app.component('pv-checkbox',Checkbox)
 
 
 

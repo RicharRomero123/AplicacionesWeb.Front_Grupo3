@@ -1,9 +1,15 @@
 <script setup>
 import TheWelcome from '../components/TheWelcome.vue'
-import TutorialsGrid from '../components/TutorialsGrid.vue';
 import final_footer from '../components/final_footer.vue';
-import CategoryCard from "@/components/CategoryCard.vue";
 import PrimeVueCode from "@/components/PrimeVueCode.vue";
+import PrimeVueName from "@/components/PrimeVueName.vue";
+import PrimeVueCategory from "@/components/PrimeVueCategory.vue";
+import PrimeVueDateAdded from "@/components/PrimeVueDateAdded.vue";
+import PrimeVueQuantity from "@/components/PrimeVueQuantity.vue";
+import PrimeVueDescription from "@/components/PrimeVueDescription.vue";
+import PrimeVueDigitalVersion from "@/components/PrimeVueDigitalVersion.vue";
+
+
 </script>
 
 <template>
@@ -18,11 +24,15 @@ import PrimeVueCode from "@/components/PrimeVueCode.vue";
           <p class="titulo">Add Tutorial</p>
         </div>
         <PrimeVueCode/>
+        <PrimeVueName/>
+        <PrimeVueCategory/>
+        <PrimeVueDateAdded/>
+        <PrimeVueQuantity/>
+        <PrimeVueDescription/>
+        <PrimeVueDigitalVersion/>
       </div>
 
     </div>
-
-
 
   <div>
     <final_footer/>
@@ -44,7 +54,7 @@ import PrimeVueCode from "@/components/PrimeVueCode.vue";
   background-color: #B9B8B5;
   border-radius: 10px;
   padding: 100px;
-  height: 60vh;
+  height: 90vh;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .pestaña {
