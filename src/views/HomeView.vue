@@ -1,8 +1,10 @@
 <script setup>
 import TheWelcome from '../components/TheWelcome.vue'
-import TutorialsGrid from '../components/TutorialsGrid.vue'
-import final_footer from '../components/final_footer.vue'
+import TutorialsGrid from '../components/TutorialsGrid.vue';
+import final_footer from '../components/final_footer.vue';
 import CategoryCard from "@/components/CategoryCard.vue";
+import PrimeVueCode from "@/components/PrimeVueCode.vue";
+
 </script>
 
 <template>
@@ -23,10 +25,14 @@ import CategoryCard from "@/components/CategoryCard.vue";
         </div>
     </div>
 
+    
+
   <div>
     <final_footer/>
   </div>
   
+  <PrimeVueCode/>
+
   
 </template>
 
