@@ -26,6 +26,7 @@ export default {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
+
 }
 
 .input-label {

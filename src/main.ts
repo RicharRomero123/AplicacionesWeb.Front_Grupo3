@@ -23,9 +23,12 @@ import InputNumber from 'primevue/inputnumber';
 import Textarea from 'primevue/textarea';
 import Checkbox from 'primevue/checkbox';
 import RadioButton from 'primevue/radiobutton';
+import primeVueDigitalVersion from "@/components/PrimeVueDigitalVersion.vue";
 
 const app = createApp(App);
+
 app.use(PrimeVue);
+
 app.component('pv-button',Button)
 app.component('pv-inputmask',InputMask)
 app.component('pv-inputtext',InputText)
@@ -35,8 +38,6 @@ app.component('pv-inputnumber',InputNumber)
 app.component('pv-texttarea',Textarea)
 app.component('pv-checkbox',Checkbox)
 app.component('pv-radiobutton',RadioButton)
-
-
 
 app.use(PrimeVue)
 

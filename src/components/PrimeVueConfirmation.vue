@@ -17,7 +17,7 @@
       };
     },
     components: {
-      Button,
+      //Button,
     },
   };
   </script>
@@ -33,7 +33,7 @@
     margin-top: 5px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+      justify-content: space-around;
   }
   .input-mask {
     margin-right: 10px;

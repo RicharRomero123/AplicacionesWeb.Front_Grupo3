@@ -19,7 +19,7 @@ export default {
     };
   },
   components: {
-    Button,
+    //Button,
   },
 };
 </script>
