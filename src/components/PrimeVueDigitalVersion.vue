@@ -21,6 +21,7 @@ export default {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
+    justify-content: space-around;
 }
 .label {
   margin-left: 10px;

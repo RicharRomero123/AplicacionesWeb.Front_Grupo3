@@ -27,7 +27,9 @@ export default {
   display: flex !important;
 }
 .justify-content-center {
-  justify-content: center !important;
+    justify-content: space-between!important;
+    padding-bottom: 25px;
+    padding-top: 25px;
 }
 .align-items-center {
   align-items: center !important;

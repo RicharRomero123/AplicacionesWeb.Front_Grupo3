@@ -1,5 +1,5 @@
 <template>
-    <footer class="container-footer">
+    <footer>
         <div class="footer1">
             <div style="color: greenyellow;">
                 © 2022 Todos los Derechos Reservados 
@@ -45,15 +45,9 @@
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+
+    padding: 20px 0;
+    position: absolute;
 }
 
-.container-footer{
-    background-color: #22242E;
-    padding: 1em 0;
-    text-align: center;
-    position: absolute;
-    bottom: 0%;
-    width: 100%;
-    
-}
 </style>
