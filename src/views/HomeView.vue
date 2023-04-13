@@ -8,6 +8,7 @@ import PrimeVueDateAdded from "@/components/PrimeVueDateAdded.vue";
 import PrimeVueQuantity from "@/components/PrimeVueQuantity.vue";
 import PrimeVueDescription from "@/components/PrimeVueDescription.vue";
 import PrimeVueDigitalVersion from "@/components/PrimeVueDigitalVersion.vue";
+import PrimeVueStatus from "@/components/PrimeVueStatus.vue";
 
 
 </script>
@@ -30,6 +31,7 @@ import PrimeVueDigitalVersion from "@/components/PrimeVueDigitalVersion.vue";
         <PrimeVueQuantity/>
         <PrimeVueDescription/>
         <PrimeVueDigitalVersion/>
+        <PrimeVueStatus/>
       </div>
 
     </div>
@@ -46,7 +48,7 @@ import PrimeVueDigitalVersion from "@/components/PrimeVueDigitalVersion.vue";
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 90vh;
+  height: 95vh;
 }
 
 .Formulario {

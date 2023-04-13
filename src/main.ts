@@ -22,6 +22,7 @@ import Calendar from 'primevue/calendar';
 import InputNumber from 'primevue/inputnumber';
 import Textarea from 'primevue/textarea';
 import Checkbox from 'primevue/checkbox';
+import RadioButton from 'primevue/radiobutton';
 
 const app = createApp(App);
 app.use(PrimeVue);
@@ -33,6 +34,7 @@ app.component('pv-calendar',Calendar)
 app.component('pv-inputnumber',InputNumber)
 app.component('pv-texttarea',Textarea)
 app.component('pv-checkbox',Checkbox)
+app.component('pv-radiobutton',RadioButton)
 
 
 
