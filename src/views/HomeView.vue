@@ -9,6 +9,7 @@ import PrimeVueQuantity from "@/components/PrimeVueQuantity.vue";
 import PrimeVueDescription from "@/components/PrimeVueDescription.vue";
 import PrimeVueDigitalVersion from "@/components/PrimeVueDigitalVersion.vue";
 import PrimeVueStatus from "@/components/PrimeVueStatus.vue";
+import PrimeVueConfirmation from "@/components/PrimeVueConfirmation.vue";
 
 
 </script>
@@ -32,6 +33,8 @@ import PrimeVueStatus from "@/components/PrimeVueStatus.vue";
         <PrimeVueDescription/>
         <PrimeVueDigitalVersion/>
         <PrimeVueStatus/>
+        <PrimeVueConfirmation/>
+        
       </div>
 
     </div>
@@ -48,7 +51,8 @@ import PrimeVueStatus from "@/components/PrimeVueStatus.vue";
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 95vh;
+  height: 110vh;
+  margin-bottom: 5px;
 }
 
 .Formulario {
@@ -56,7 +60,7 @@ import PrimeVueStatus from "@/components/PrimeVueStatus.vue";
   background-color: #B9B8B5;
   border-radius: 10px;
   padding: 100px;
-  height: 90vh;
+  height: 100vh;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .pestaña {

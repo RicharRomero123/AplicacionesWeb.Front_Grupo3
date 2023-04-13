@@ -1,5 +1,7 @@
 <template>
+
   <div class="d-flex justify-content-center align-items-center">
+    Status:
     <pv-radiobutton v-model="status" inputId="status1" name="status" value="Active" />
     <label for="status1" class="ms-2 me-3">Active</label>
     <pv-radiobutton v-model="status" inputId="status2" name="status" value="Suspended" />
