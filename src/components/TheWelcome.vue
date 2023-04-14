@@ -68,10 +68,10 @@
 }
 
 .show-menu {
-    height: 160px;
-    left: 0;
-    right: auto;
-    z-index: +1;
+  height: 160px;
+  left: 0;
+  right: auto;
+  z-index: +1;
 }
 
 .menu-items ul {
@@ -110,12 +110,12 @@
 export default {
   data() {
     return {
-      isMenuOpen: false,
+      isMenuOpen: false
     }
   },
   methods: {
     toggleMenu() {
-      this.isMenuOpen = !this.isMenuOpen;
+      this.isMenuOpen = !this.isMenuOpen
     }
   }
 }

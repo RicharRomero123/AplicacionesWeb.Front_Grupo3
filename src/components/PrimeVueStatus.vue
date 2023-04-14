@@ -1,25 +1,42 @@
 <template>
-
   <div class="d-flex justify-content-center align-items-center">
     Status:
-    <pv-radiobutton v-model="status" inputId="status1" name="status" value="$t('_active')" />
+    <pv-radiobutton
+      v-model="status"
+      inputId="status1"
+      id="status1"
+      name="status"
+      value="$t('_active')"
+    />
     <label for="status1" class="ms-2 me-3">Active</label>
-    <pv-radiobutton v-model="status" inputId="status2" name="status" value="$t('_suspended')" />
+    <pv-radiobutton
+      v-model="status"
+      inputId="status2"
+      id="status2"
+      name="status"
+      value="$t('_suspended')"
+    />
     <label for="status2" class="ms-2 me-3">Suspended</label>
-    <pv-radiobutton v-model="status" inputId="status3" name="status" value="$t('_cancel')" />
+    <pv-radiobutton
+      v-model="status"
+      inputId="status3"
+      id="status3"
+      name="status"
+      value="$t('_cancel')"
+    />
     <label for="status3" class="ms-2">Inactive</label>
   </div>
 </template>
 
 <script>
 export default {
-  name: "PrimeVueStatus",
+  name: 'PrimeVueStatus',
   data() {
     return {
-      status: "Active",
-    };
-  },
-};
+      status: 'Active'
+    }
+  }
+}
 </script>
 
 <style scoped>
@@ -27,9 +44,9 @@ export default {
   display: flex !important;
 }
 .justify-content-center {
-    justify-content: space-between!important;
-    padding-bottom: 25px;
-    padding-top: 25px;
+  justify-content: space-between !important;
+  padding-bottom: 25px;
+  padding-top: 25px;
 }
 .align-items-center {
   align-items: center !important;

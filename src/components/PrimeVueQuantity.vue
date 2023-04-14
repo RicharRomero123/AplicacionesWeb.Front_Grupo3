@@ -1,19 +1,19 @@
 <template>
   <div class="input-group">
-    <label for="quantity" class="input-label">{{$t('_quantity')}}</label>
+    <label for="quantity" class="input-label">{{ $t('_quantity') }}</label>
     <pv-inputnumber id="quantity" v-model="value1" inputId="integeronly" class="input-number" />
   </div>
 </template>
 
 <script>
 export default {
-  name: "PrimeViuQuantity",
+  name: 'PrimeViuQuantity',
   data() {
     return {
-      value1: null,
-    };
-  },
-};
+      value1: null
+    }
+  }
+}
 </script>
 
 <style scoped>

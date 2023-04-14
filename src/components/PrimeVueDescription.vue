@@ -1,19 +1,19 @@
 <template>
   <div class="input-wrapper">
-    <label for="description" class="input-label">{{$t('_description')}}</label>
+    <label for="description" class="input-label">{{ $t('_description') }}</label>
     <pv-texttarea id="description" v-model="value" rows="5" cols="30" />
   </div>
 </template>
 
 <script>
 export default {
-  name: "PrimeVueDescription",
+  name: 'PrimeVueDescription',
   data() {
     return {
-      value: "",
-    };
-  },
-};
+      value: ''
+    }
+  }
+}
 </script>
 
 <style scoped>

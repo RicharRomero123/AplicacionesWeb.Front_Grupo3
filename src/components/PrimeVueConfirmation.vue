@@ -1,55 +1,53 @@
 <template>
+  <div class="code-wrapper">
+    <pv-button class="my-button" :label="$t('_save')" />
+    <pv-button class="my-button" :label="$t('_cancel')" severity="danger" />
+  </div>
+</template>
 
-    <div class="code-wrapper">
-        <pv-button class="my-button" :label="$t('_save')" />
-        <pv-button class="my-button" :label="$t('_cancel')" severity="danger" />
-    </div>
-  </template>
-  
-  <script>
-  import Button from "primevue/button";
-  
-  export default {
-    name: "PrimeVueCode",
-    data() {
-      return {
-        value: "",
-      };
-    },
-    components: {
-      //Button,
-    },
-  };
-  </script>
-  
-  <style scoped>
-  .input-wrapper {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-  }
+<script>
+import Button from 'primevue/button'
 
-  .code-wrapper {
-    margin-top: 5px;
-    display: flex;
-    align-items: center;
-      justify-content: space-around;
+export default {
+  name: 'PrimeVueCode',
+  data() {
+    return {
+      value: ''
+    }
+  },
+  components: {
+    //Button,
   }
-  .input-mask {
-    margin-right: 10px;
-  }
-  .my-button {
-    font-size: 1.2em;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-left: 10px; /* Ajustar el margen izquierdo del botón */
-  }
-  .my-button:hover {
-    background-color: #0062cc;
-  }
-  </style>
-  
+}
+</script>
+
+<style scoped>
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.code-wrapper {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.input-mask {
+  margin-right: 10px;
+}
+.my-button {
+  font-size: 1.2em;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px; /* Ajustar el margen izquierdo del botón */
+}
+.my-button:hover {
+  background-color: #0062cc;
+}
+</style>

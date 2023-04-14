@@ -1,19 +1,19 @@
 <template>
   <div class="checkbox-wrapper">
-    <pv-checkbox v-model="checked" :binary="true" class="checkbox" />
-    <label for="$t('_digitalVersion')" class="label">Digital Version</label>
+    <pv-checkbox v-model="checked" :binary="true" class="checkbox" id="checkbox-digital" />
+    <label for="checkbox-digital" class="label">Digital Version</label>
   </div>
 </template>
 
 <script>
 export default {
-  name: "PrimeVueDigitalVersion",
+  name: 'PrimeVueDigitalVersion',
   data() {
     return {
-      checked: false,
-    };
-  },
-};
+      checked: false
+    }
+  }
+}
 </script>
 
 <style scoped>
@@ -21,10 +21,9 @@ export default {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
-    justify-content: space-around;
+  justify-content: space-around;
 }
 .label {
   margin-left: 10px;
 }
-
 </style>

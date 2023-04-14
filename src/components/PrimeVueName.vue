@@ -1,19 +1,19 @@
 <template>
   <div class="input-wrapper">
-    <span>{{$t('_name')}}</span>
+    <span>{{ $t('_name') }}</span>
     <pv-inputtext v-model="name" class="input-text" />
   </div>
 </template>
 
 <script>
 export default {
-  name: "PrimeVueName",
+  name: 'PrimeVueName',
   data() {
     return {
-      name: "",
-    };
-  },
-};
+      name: ''
+    }
+  }
+}
 </script>
 
 <style scoped>
