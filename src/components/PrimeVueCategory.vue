@@ -1,6 +1,6 @@
 <template>
   <div class="input-group">
-    <label for="category" class="input-label">Categoria:</label>
+    <label for="category" class="input-label">{{$t('_category')}}</label>
     <pv-dropdown id="category" v-model="selectedCategory" :options="categories" optionLabel="name" placeholder="Seleccionar categoría" class="dropdown-custom w-full md:w-14rem" />
   </div>
 </template>
@@ -20,6 +20,7 @@ export default {
   }
 };
 </script>
+
 
 <style scoped>
 .input-group {

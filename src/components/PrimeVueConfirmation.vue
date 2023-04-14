@@ -1,8 +1,8 @@
 <template>
 
     <div class="code-wrapper">
-        <pv-button class="my-button" label="Save" />
-        <pv-button class="my-button" label="Cancel" severity="danger" />
+        <pv-button class="my-button" :label="$t('_save')" />
+        <pv-button class="my-button" :label="$t('_cancel')" severity="danger" />
     </div>
   </template>
   

@@ -1,6 +1,6 @@
 <template>
   <div class="input-group">
-    <label for="quantity" class="input-label">Quantity:</label>
+    <label for="quantity" class="input-label">{{$t('_quantity')}}</label>
     <pv-inputnumber id="quantity" v-model="value1" inputId="integeronly" class="input-number" />
   </div>
 </template>

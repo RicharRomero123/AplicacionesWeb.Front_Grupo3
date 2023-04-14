@@ -25,6 +25,9 @@ import Checkbox from 'primevue/checkbox';
 import RadioButton from 'primevue/radiobutton';
 import primeVueDigitalVersion from "@/components/PrimeVueDigitalVersion.vue";
 
+import { createI18n } from 'vue-i18n'
+import  i18n from '../src/locales/i18n'
+
 const app = createApp(App);
 
 app.use(PrimeVue);
@@ -45,3 +48,5 @@ app.use(createPinia())
 app.use(router)
 
 app.mount('#app')
+
+app.use(i18n);

@@ -1,6 +1,6 @@
 <template>
   <div class="input-wrapper">
-    <label for="description" class="input-label">Descripción:</label>
+    <label for="description" class="input-label">{{$t('_description')}}</label>
     <pv-texttarea id="description" v-model="value" rows="5" cols="30" />
   </div>
 </template>

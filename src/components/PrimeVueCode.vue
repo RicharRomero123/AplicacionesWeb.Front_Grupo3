@@ -1,6 +1,6 @@
 <template>
   <div class="input-wrapper">
-    <span class="code-label">Code:</span>
+    <span class="code-label">{{$t('_code')}}</span>
     <div class="code-wrapper">
       <pv-inputmask id="basic" v-model="value" mask="99-999999" placeholder="99-999999" class="input-mask" />
       <pv-button class="my-button" label="Validate" />

@@ -1,6 +1,6 @@
 <template>
   <div class="input-wrapper">
-    <span>Name:</span>
+    <span>{{$t('_name')}}</span>
     <pv-inputtext v-model="name" class="input-text" />
   </div>
 </template>

@@ -1,6 +1,6 @@
 <template>
   <div class="input-group">
-    <label for="date-added" class="input-label">Date Added:</label>
+    <label for="date-added" class="input-label">{{$t('_dateAdded')}}</label>
     <pv-calendar id="date-added" v-model="date" showIcon @change="onDateChange" />
   </div>
 </template>
