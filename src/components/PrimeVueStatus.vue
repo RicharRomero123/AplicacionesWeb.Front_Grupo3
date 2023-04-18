@@ -1,42 +1,38 @@
+
+
 <template>
   <div class="d-flex justify-content-center align-items-center">
-    Status:
-    <pv-radiobutton
-      v-model="status"
-      inputId="status1"
-      id="status1"
-      name="status"
-      value="$t('_active')"
-    />
-    <label for="status1" class="ms-2 me-3">Active</label>
-    <pv-radiobutton
-      v-model="status"
-      inputId="status2"
-      id="status2"
-      name="status"
-      value="$t('_suspended')"
-    />
-    <label for="status2" class="ms-2 me-3">Suspended</label>
-    <pv-radiobutton
-      v-model="status"
-      inputId="status3"
-      id="status3"
-      name="status"
-      value="$t('_cancel')"
-    />
-    <label for="status3" class="ms-2">Inactive</label>
+    {{$t('_status')}}:
+    
+    
+    <div v-for="detail in listCards">
+      <Status-component :status_label=detail.status_label />
+    </div>
+
   </div>
 </template>
 
 <script>
-export default {
-  name: 'PrimeVueStatus',
-  data() {
-    return {
-      status: 'Active'
+
+  import StatusComponent from "../components/Status-component.vue";
+
+
+  export default {
+    name: "PrimeVueStatus",
+    components: {StatusComponent},
+    data(){
+        return{
+            listCards:[]
+        }
+    },
+    beforeMount() {
+        //Invocar API
+        this.listCards = [{ status_label: '_active' }, { status_label: '_suspended' }, { status_label: '_inactive' }]
     }
+
+
+
   }
-}
 </script>
 
 <style scoped>

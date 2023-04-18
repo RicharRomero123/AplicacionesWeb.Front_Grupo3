@@ -15,9 +15,10 @@ import PrimeVueConfirmation from "@/components/PrimeVueConfirmation.vue";
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  
+  <div>
+    <TheWelcome></TheWelcome>
+  </div>
 
     <div class="Cuerpo">
 

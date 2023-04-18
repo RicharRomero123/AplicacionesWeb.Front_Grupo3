@@ -1,7 +1,7 @@
 <template>
   <div class="checkbox-wrapper">
     <pv-checkbox v-model="checked" :binary="true" class="checkbox" id="checkbox-digital" />
-    <label for="checkbox-digital" class="label">Digital Version</label>
+    <label for="checkbox-digital" class="label">{{ $t('_digitalVersion') }}</label>
   </div>
 </template>
 

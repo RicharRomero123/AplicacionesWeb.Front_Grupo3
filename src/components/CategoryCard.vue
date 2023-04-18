@@ -15,9 +15,9 @@
 </template>
 
 <script>
-export default {
+    export default {
     props: { name: String, description: String }
-}
+    }
 </script>
 
 <style>

@@ -1,7 +1,7 @@
 <template>
   <div class="code-wrapper">
-    <pv-button class="my-button" :label="$t('_save')" />
-    <pv-button class="my-button" :label="$t('_cancel')" severity="danger" />
+    <pv-button class="my-button" :label="$t('_save')" @click="handleClick_Save()"/>
+    <pv-button class="my-button" :label="$t('_cancel')" severity="danger" @click="handleClick_Cancel()"/>
   </div>
 </template>
 
@@ -16,8 +16,18 @@ export default {
     }
   },
   components: {
-    //Button,
-  }
+    Button
+  },  
+  methods:{
+        handleClick_Save(){
+            console.log('Forms Saved')
+           
+        },
+        handleClick_Cancel(){
+            console.log('Forms Canceled' )
+            
+        }
+    }
 }
 </script>
 
