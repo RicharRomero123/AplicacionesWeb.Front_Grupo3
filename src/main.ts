@@ -26,7 +26,7 @@ import RadioButton from 'primevue/radiobutton';
 import primeVueDigitalVersion from "@/components/PrimeVueDigitalVersion.vue";
 
 import { createI18n } from 'vue-i18n'
-import  i18n from '../src/locales/i18n'
+import  i18n from '@/locales/i18n'
 
 const app = createApp(App);
 

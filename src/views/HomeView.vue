@@ -10,7 +10,7 @@ import PrimeVueDescription from "@/components/PrimeVueDescription.vue";
 import PrimeVueDigitalVersion from "@/components/PrimeVueDigitalVersion.vue";
 import PrimeVueStatus from "@/components/PrimeVueStatus.vue";
 import PrimeVueConfirmation from "@/components/PrimeVueConfirmation.vue";
-
+import i18n from "@/locales/i18n";
 
 </script>
 
