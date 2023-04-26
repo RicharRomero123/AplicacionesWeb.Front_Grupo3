@@ -1,27 +1,27 @@
 import axios from "axios";
 
-const http = axios()
+const http = axios.create({baseURL:"https://jsonplaceholder.typicode.com/"})
 export class UsersApiService{
 
     getAll(){
         //get
-        return axios.get('https://jsonplaceholder.typicode.com/users')
+        return http.get('posts')
     };
 
     getUserById(id)
     {
-        return axios.get('https://jsonplaceholder.typicode.com/users/'+id)
+        return http.get('posts/'+id)
     };
 
     createUser(body){
-        return axios.post('https://jsonplaceholder.typicode.com/users',body)
+        return http.post('posts',body)
     }
     update(id,body){
-        return axios.put('https://jsonplaceholder.typicode.com/users/'+id,body)
+        return http.patch('posts/'+id,body)
     }
     delete(id)
     {
-        return axios.put('https://jsonplaceholder.typicode.com/users/'+id)
+        return http.delete('posts/'+id)
     }
 
 }
