@@ -2,7 +2,9 @@
     
     <div v-for="user in users">
         user {{user}}
-        <pv-button >posts</pv-button>
+        <pv-button >
+            <router-link :to="{name:'user',params: {id:user}}">Posts</router-link>
+        </pv-button>
     </div>
 </template>
 
