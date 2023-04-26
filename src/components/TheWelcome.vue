@@ -17,7 +17,7 @@
     </div>
     <div class="logo">LIBRARY UPC</div>
       <router-link class="home-button" to="/"></router-link>
-      <router-link class="user-button" to="/users"></router-link>
+      <router-link class="user-button" to="/userspage"></router-link>
   </header>
 </template>
 
