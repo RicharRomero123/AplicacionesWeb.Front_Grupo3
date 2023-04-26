@@ -4,7 +4,8 @@
 
 <script>
 export default {
-    name: "Users"
+    // eslint-disable-next-line vue/multi-word-component-names
+    name: "userspage"
 }
 </script>
 
