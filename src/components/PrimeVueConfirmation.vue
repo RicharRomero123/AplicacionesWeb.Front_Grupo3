@@ -1,13 +1,16 @@
 <template>
   <div class="code-wrapper">
-    <pv-button class="my-button" :label="$t('_save')" @click="handleClick_Save()"/>
-    <pv-button class="my-button" :label="$t('_cancel')" severity="danger" @click="handleClick_Cancel()"/>
+    <pv-button class="my-button" :label="$t('_save')" @click="handleClick_Save()" />
+    <pv-button
+      class="my-button"
+      :label="$t('_cancel')"
+      severity="danger"
+      @click="handleClick_Cancel()"
+    />
   </div>
 </template>
 
 <script>
-import Button from 'primevue/button'
-
 export default {
   name: 'PrimeVueCode',
   data() {
@@ -15,19 +18,15 @@ export default {
       value: ''
     }
   },
-  components: {
-    Button
-  },  
-  methods:{
-        handleClick_Save(){
-            console.log('Forms Saved')
-           
-        },
-        handleClick_Cancel(){
-            console.log('Forms Canceled' )
-            
-        }
+  components: {},
+  methods: {
+    handleClick_Save() {
+      console.log('Forms Saved')
+    },
+    handleClick_Cancel() {
+      console.log('Forms Canceled')
     }
+  }
 }
 </script>
 

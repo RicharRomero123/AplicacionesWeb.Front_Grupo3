@@ -16,8 +16,8 @@
       </nav>
     </div>
     <div class="logo">LIBRARY UPC</div>
-      <router-link class="home-button" to="/"></router-link>
-      <router-link class="user-button" to="/userspage"></router-link>
+    <router-link class="home-button" to="/"></router-link>
+    <router-link class="user-button" to="/userspage"></router-link>
   </header>
 </template>
 
@@ -92,7 +92,7 @@
 
 .logo {
   font-size: 28px;
-  margin-left:600px ;
+  margin-left: 600px;
 }
 
 .user-button {
@@ -105,22 +105,19 @@
   background-position: center;
   background-repeat: no-repeat;
   cursor: pointer;
-
 }
 .home-button {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: white;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy18s9_V1BXihC2F1PLmxWMhs7rkJ5ByjiVkn8USe3mQ&s);
-    background-size: 50px 50px;
-    background-position: center;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    margin-right: 20px;
-    margin-left: auto;
-
-
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy18s9_V1BXihC2F1PLmxWMhs7rkJ5ByjiVkn8USe3mQ&s);
+  background-size: 50px 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  margin-right: 20px;
+  margin-left: auto;
 }
 </style>
 
