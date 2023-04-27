@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import usersPage from "@/components/users-page.vue";
 import user  from "@/components/user.vue"
 import postscomponent from "@/components/posts-container.vue"
+import postsList from "@/components/PostsList.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -26,7 +27,7 @@ const router = createRouter({
       component: () => import('../views/AboutView.vue')
     },
     {path:'/user/:id',component:user,name:'user'},
-    {path:'/user/:id/posts',component:postscomponent,name:'user'}
+    {path:'/user/:id/posts',component:postsList,name:'user'}
   ]
 })
 

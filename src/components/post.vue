@@ -1,19 +1,24 @@
 <template>
-    <div class="post-container">
-        <div class="title-container">
-            <h3>Titulo {{id}}: {{title}} </h3>
-        </div>
-        <div class="body-container">
-            <p>{{body}}</p>
+    <div>
+
+        <div class="post-container">
+            <div class="title-container">
+                <h3>Titulo {{id}}: {{title}} </h3>
+            </div>
+            <div class="body-container">
+                <p>{{body}}</p>
+            </div>
         </div>
     </div>
 </template>
 
 <script>
+
 export default {
     name: "post",
-    props:['id','title','body'],
-}
+    props: ["id", "title", "body"],
+
+};
 </script>
 
 <style scoped>

@@ -1,18 +1,25 @@
 <template>
-    <div class="user-grid">
-        <div v-for="user in users" :key="user" class="user-cell">
-            <div class="user-text">user {{user}}</div>
-            <pv-button class="post-button">
-                <router-link :to="{name:'user',params: {id:user}}">Posts</router-link>
-            </pv-button>
+    <div>
+        <TheWelcome />
+        <div class="user-grid">
+            <div v-for="user in users" :key="user" class="user-cell">
+                <div class="user-text">user {{user}}</div>
+                <pv-button class="post-button">
+                    <router-link :to="{name:'user',params: {id:user}}">Posts</router-link>
+                </pv-button>
+            </div>
         </div>
     </div>
 </template>
 
+
 <script>
 import { UsersApiService } from "@/services/users-api.service";
-
+import TheWelcome from "@/components/TheWelcome.vue";
 export default {
+    components: {
+        TheWelcome
+    },
     name: "users",
     data() {
         return {
