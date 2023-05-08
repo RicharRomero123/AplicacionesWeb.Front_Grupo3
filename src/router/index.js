@@ -1,9 +1,10 @@
-import { createRouter, createWebHistory } from 'vue-router'
+  import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import usersPage from "@/components/users-page.vue";
 import user  from "@/components/user.vue"
 import postscomponent from "@/components/posts-container.vue"
 import postsList from "@/components/PostsList.vue";
+import logincomponent from "@/components/logincomponent.vue"
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -27,7 +28,8 @@ const router = createRouter({
       component: () => import('../views/AboutView.vue')
     },
     {path:'/user/:id',component:user,name:'user'},
-    {path:'/user/:id/posts',component:postsList,name:'user'}
+    {path:'/user/:id/posts',component:postsList,name:'user'},
+    {path:'/login',component:logincomponent,name:'Login'}
   ]
 })
 

@@ -1,4 +1,4 @@
-<template>
+    <template>
     <div>
         <TheWelcome />
         <div class="user-grid">

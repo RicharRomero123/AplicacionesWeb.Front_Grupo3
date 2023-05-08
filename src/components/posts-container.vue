@@ -29,7 +29,8 @@ export default {
             this.posts = response.data.filter(post => post.userId === parseInt(this.id))
         })
         console.log(this.posts)
-
+        
+        
     }
 
 

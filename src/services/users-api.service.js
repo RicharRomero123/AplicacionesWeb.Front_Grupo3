@@ -1,8 +1,12 @@
 import axios from "axios";
 
-const http = axios.create({baseURL:"https://jsonplaceholder.typicode.com/"})
+const http = axios.create({
+    baseURL:"https://jsonplaceholder.typicode.com/",
+    headers:{
+        Authorization:"Bearer "+localStorage.getItem("jwt")
+    }})
 export class UsersApiService{
-
+    
     getAll(){
         //get
         return http.get('posts')
