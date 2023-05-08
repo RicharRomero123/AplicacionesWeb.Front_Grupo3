@@ -16,8 +16,8 @@
       </nav>
     </div>
     <div class="logo">LIBRARY UPC</div>
-    <router-link class="home-button" to="/"></router-link>
-    <router-link class="user-button" to="/login"></router-link>
+    <router-link class="home-button" to="/" @click="Backtohome()"></router-link>
+    <router-link class="user-button" to="/login" ></router-link>
   </header>
 </template>
 
@@ -131,6 +131,9 @@ export default {
   methods: {
     toggleMenu() {
       this.isMenuOpen = !this.isMenuOpen
+    },
+    Backtohome(){
+      localStorage.clear();
     }
   }
 }

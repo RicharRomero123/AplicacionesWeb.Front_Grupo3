@@ -12,6 +12,7 @@ import PrimeVueStatus from "@/components/PrimeVueStatus.vue";
 import PrimeVueConfirmation from "@/components/PrimeVueConfirmation.vue";
 import i18n from "@/locales/i18n";
 
+
 </script>
 
 <template>
