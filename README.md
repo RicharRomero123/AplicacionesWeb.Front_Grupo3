@@ -49,4 +49,21 @@ npm run test:unit
 
 ```sh
 npm run lint
+
 ```
+
+#### para instalar el json server auth
+
+npm i json-server-auth
+
+### Para desplegar un servidor local
+
+json-server db.json -m ./node_modules/json-server-auth
+
+
+### Hacer un post a register del local dando estos parametros
+
+{
+  "email": "user@email.com",
+  "password": "1234567"
+}
