@@ -5,7 +5,7 @@
   </div>
 </template>
 
-<script>
+  <script>
 export default {
   name: 'PrimeVueDigitalVersion',
   data() {
@@ -18,7 +18,7 @@ export default {
 
 <style scoped>
 .checkbox-wrapper {
-  display: flex;
+  display: flex;  
   align-items: center;
   margin-bottom: 10px;
   justify-content: space-around;
